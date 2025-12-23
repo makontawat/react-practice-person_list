@@ -1,0 +1,46 @@
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 800px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 20px;
+}
+input {
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+  margin: 10px;
+}
+select {
+  padding: 7px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.btn-save {
+  padding: 8px 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+.btn-save:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}

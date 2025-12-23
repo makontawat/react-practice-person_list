@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 70px;
+  margin: auto;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+span {
+  cursor: pointer;
+}
